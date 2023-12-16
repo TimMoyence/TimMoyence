@@ -2,7 +2,6 @@
 
 ## Hi there! 👋 I'm @TimMoyence
 
-Welcome to my GitHub page!
 I am Tim Moyence, a enthusiast in web development and data, equipped with a diverse academic background, from the restaurant industry to entrepreneurship, with a brief venture into biology. My experience at Decathlon has allowed me to acquire skills in team management, business unit supervision, and store layout, yielding tangible results, including the establishment of the second-largest workshop in the region.
 
 ## Technical Skills
