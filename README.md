@@ -1,51 +1,58 @@
-# GitHub Presentation - [@TimMoyence](https://github.com/TimMoyence)
+# Tim Kraken
 
-## Hi there! 👋 I'm @TimMoyence
+Developpeur Full-Stack & IA. Ex-manager Decathlon. Formateur. Co-fondateur Musaium.
 
-I am Tim Moyence, a enthusiast in web development and data, equipped with a diverse academic background, from the restaurant industry to entrepreneurship, with a brief venture into biology. My experience at Decathlon has allowed me to acquire skills in team management, business unit supervision, and store layout, yielding tangible results, including the establishment of the second-largest workshop in the region.
+6 ans de management, puis un jour j'ai choisi le code. 2 403 commits plus tard, je construis des apps en production avec de vrais utilisateurs.
 
-## Technical Skills
+---
 
-### Languages
+### Ce que je construis
 
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>- JavaScript (front and back)  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code> - HTML  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> - CSS  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"></code> - PostgreSQL  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"></code> - SQL  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> - Python (just basics)  
+**[Musaium](https://github.com/TimMoyence/Innov-mind-museum)** — App mobile de mediation culturelle pour musees. Le visiteur photographie une oeuvre, une IA multi-LLM raconte l'histoire. React Native + Express + LangChain. 592 commits. Co-fonde avec Cristelle.
 
-### Frameworks
+**Portfolio SaaS** — 5 apps en production : audit SEO (LangChain + BullMQ + SSE), tracker de consommation (NLP + Telegram), budget partage, app meteo (circuit breaker multi-provider), formation interactive. 105K lignes TypeScript. Angular 19 + NestJS 11. DDD + Clean Architecture. 2 388 tests. Audit qualite 87/100.
 
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code> - Node.JS / Express.JS  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code> - Bootstrap  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"></code> - Angular  
+**Voice IA** — Assistant vocal personnel. Voix → transcription (Whisper) → classification (GPT-4o) → Notion/Calendar. pgvector pour la recherche semantique. Construit en 3 jours.
 
-## Current Learning
+**Morning Brief** — Veille IA quotidienne. 50+ sources, dedup semantique, synthese LLM. Python hexagonal. Tourne sur un Raspberry Pi Zero W.
 
-I'm currently expanding my skills in SQL, and Angular
+**5 bots Telegram** — Sebastian (tracker NLP), IFS Academy (automatisation edtech), Morning Brief, Voice IA, Portfolio Backend.
 
-## Explorations / Projects
+---
 
-Throughout my training and personal projects, I've developed various applications, including:
+### Stack
 
-- Single page applications (Trello-style)
-- Site showcasing Valorant characters and maps from a JSON file
-- Portfolio (Bootstrap)
-- Interactive CV for Betclic
-- Dynamic school directory
-- Quiz presentation site (with user and admin management)
+```
+Frontend    Angular 19 · React/React Native · TypeScript · Tailwind · SSR · i18n
+Backend     NestJS 11 · Express · .NET/C# · TypeORM · PostgreSQL · Redis · BullMQ · Docker
+IA          LangChain · OpenAI · Claude · Whisper · pgvector · embeddings
+Qualite     TDD (Jest, Playwright, Stryker) · CI/CD GitHub Actions · DDD · Clean Architecture
+```
 
-## Contact
+### Architecture
 
-I'm open to collaborations, feedback, and discussions. Feel free to reach out to me:
+Chaque projet suit le meme pattern : **interfaces → application → domain → infrastructure**. Ports/adapters. Factories partagees. Conventional Commits. TDD obligatoire. Pas de raccourcis.
 
-- 📧 [Email](mailto:tim.moyence@gmail.com)
-- 🐦 [Twitter](https://twitter.com/TMoyence96661)
-- 📱 [LinkedIn](www.linkedin.com/in/tim-moyence)
+---
 
-## Collaboration Opportunities
+### Chiffres
 
-I'm actively seeking opportunities to collaborate on SAS projects or projects for associations. If you have any exciting projects in mind, let's discuss how I can contribute!
+| | |
+|---|---|
+| Commits | 2 403 |
+| Projets | 15 |
+| Clients livres | 6 |
+| LOC TypeScript | 105 000+ (portfolio seul) |
+| Tests | 2 388 |
+| Score qualite | 87/100 |
+| Bots Telegram | 5 |
 
-Thanks for visiting my GitHub page. See you around! 😊
+---
+
+### Formateur
+
+Management & leadership a l'Ipac Bachelor Factory et l'EPSI. IA appliquee pour solopreneurs — 16 outils tries, cas pratiques en live.
+
+---
+
+Bordeaux & remote · [asilidesign.fr](https://asilidesign.fr) · DM ouverts
